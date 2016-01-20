@@ -4,11 +4,9 @@ const strftime = require("strftime");
 
 const app = express();
 
-
 app.get("/:date", (req, res) => {
-  // debugger;
-  req.acceptsLanguages();
   const dateString = req.params.date;
+  
   if (dateString === "favicon.ico")
     return res.sendStatus(404);
     
