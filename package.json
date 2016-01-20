@@ -1,6 +1,6 @@
 {
   "name": "timestamp-microservice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Free Code Camp backend exercise",
   "main": "server.js",
   "dependencies": {
@@ -13,5 +13,13 @@
     "start": "node server.js"
   },
   "author": "noinkling",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noinkling/fcc-timestamp-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noinkling/fcc-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/noinkling/fcc-timestamp-microservice#readme"
 }
